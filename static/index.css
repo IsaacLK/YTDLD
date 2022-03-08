@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:wght@200&display=swap');
+
+body{
+  height:100vh;
+  background: rgb(255,0,0);
+background: -moz-linear-gradient(146deg, rgba(255,0,0,1) 23%, rgba(255,255,255,1) 70%);
+background: -webkit-linear-gradient(146deg, rgba(255,0,0,1) 23%, rgba(255,255,255,1) 70%);
+background: linear-gradient(146deg, rgba(255,0,0,1) 23%, rgba(255,255,255,1) 70%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ffffff",GradientType=1);
+font-family: 'Montserrat', sans-serif;
+text-align:center;
+  
+
+display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+h1{
+
+  font-family: 'Montserrat', sans-serif;
+}
+div {
+  
+  
+}
+.textbox
+{
+  opacity: .8;
+  border-style: solid;
+  border-radius:20px;
+  border-color:black;
+}
+.submit {
+  background-color:black;
+  color:white;
+  border-style: solid;
+  border-radius:20px;
+  opacity: .8;
+  font-family: 'Comfortaa', cursive;
+  border-color:black;
+  
+  
+}
