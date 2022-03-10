@@ -15,10 +15,6 @@ def deleteThread(files):
       os.remove(f)
     time.sleep(900)
 app = Flask(__name__)
-def do_something(sc): 
-  print("Doing stuff...")
-  # do your stuff
-  sch.enter(60, 1, do_something, (sc,))
 @app.route("/")
 def main():
   return render_template('index.html')
